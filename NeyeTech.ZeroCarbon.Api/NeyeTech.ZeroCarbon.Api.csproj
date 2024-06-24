@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="MailTemplates\ActivationTemplate.html" />
+	  <None Remove="MailTemplates\ForgotPasswordRequestTemplate.html" />
+	  <None Remove="MailTemplates\ForgotPasswordTemplate.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="MailTemplates\ForgotPasswordTemplate.html">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="MailTemplates\ForgotPasswordRequestTemplate.html">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="MailTemplates\ActivationTemplate.html">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.Business\NeyeTech.ZeroCarbon.Business.csproj" />
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.Core\NeyeTech.ZeroCarbon.Core.csproj" />
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.DataAccess\NeyeTech.ZeroCarbon.DataAccess.csproj" />
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.Entities\NeyeTech.ZeroCarbon.Entities.csproj" />
+	</ItemGroup>
+
+</Project>

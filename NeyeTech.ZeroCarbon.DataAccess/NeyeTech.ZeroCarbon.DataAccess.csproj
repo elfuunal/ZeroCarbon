@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.Core\NeyeTech.ZeroCarbon.Core.csproj" />
+		<ProjectReference Include="..\NeyeTech.ZeroCarbon.Entities\NeyeTech.ZeroCarbon.Entities.csproj" />
+	</ItemGroup>
+
+</Project>

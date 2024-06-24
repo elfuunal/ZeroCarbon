@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeyeTech.ZeroCarbon.Business", "NeyeTech.ZeroCarbon.Business\NeyeTech.ZeroCarbon.Business.csproj", "{25060801-273F-4A30-B7D5-8E70032EEF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeyeTech.ZeroCarbon.DataAccess", "NeyeTech.ZeroCarbon.DataAccess\NeyeTech.ZeroCarbon.DataAccess.csproj", "{7DA8C701-0AB3-4F94-8D75-004479DAC0E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeyeTech.ZeroCarbon.Entities", "NeyeTech.ZeroCarbon.Entities\NeyeTech.ZeroCarbon.Entities.csproj", "{AB73A20A-0C58-43DA-8674-30E1FE8EB546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeyeTech.ZeroCarbon.Core", "NeyeTech.ZeroCarbon.Core\NeyeTech.ZeroCarbon.Core.csproj", "{8CBB2305-6526-4528-AB09-7942EC0C3A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeyeTech.ZeroCarbon.Api", "NeyeTech.ZeroCarbon.Api\NeyeTech.ZeroCarbon.Api.csproj", "{A6C667CD-CADF-4FBC-A726-B6E266C59C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25060801-273F-4A30-B7D5-8E70032EEF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25060801-273F-4A30-B7D5-8E70032EEF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25060801-273F-4A30-B7D5-8E70032EEF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25060801-273F-4A30-B7D5-8E70032EEF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA8C701-0AB3-4F94-8D75-004479DAC0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA8C701-0AB3-4F94-8D75-004479DAC0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA8C701-0AB3-4F94-8D75-004479DAC0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA8C701-0AB3-4F94-8D75-004479DAC0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB73A20A-0C58-43DA-8674-30E1FE8EB546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB73A20A-0C58-43DA-8674-30E1FE8EB546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB73A20A-0C58-43DA-8674-30E1FE8EB546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB73A20A-0C58-43DA-8674-30E1FE8EB546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBB2305-6526-4528-AB09-7942EC0C3A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB2305-6526-4528-AB09-7942EC0C3A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB2305-6526-4528-AB09-7942EC0C3A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB2305-6526-4528-AB09-7942EC0C3A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C667CD-CADF-4FBC-A726-B6E266C59C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C667CD-CADF-4FBC-A726-B6E266C59C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C667CD-CADF-4FBC-A726-B6E266C59C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C667CD-CADF-4FBC-A726-B6E266C59C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4646EE9A-D81D-4558-BC24-1E7260CA9849}
+	EndGlobalSection
+EndGlobal

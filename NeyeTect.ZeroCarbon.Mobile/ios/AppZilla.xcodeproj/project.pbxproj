@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AppZillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AppZillaTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13D0889B4D3141C68D83A5AC /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EA99346BE0E4B3386A97383 /* NunitoSans-ExtraLight.ttf */; };
+		1846F9142A1B85940006C5A6 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1846F9132A1B85940006C5A6 /* Fonts */; };
+		1846F9172A1F56190006C5A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1846F9162A1F56190006C5A6 /* GoogleService-Info.plist */; };
+		28987E6566EE4725AAC70100 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5BBB63197DB4652BA518AE9 /* Poppins-Black.ttf */; };
+		340893E6D6F141BEA4294F93 /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1A6EF83B9F494C81972B02 /* NunitoSans-LightItalic.ttf */; };
+		35C3C0F832A7478D8933C0F5 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842F96C3B041486099F45C88 /* Poppins-ExtraLight.ttf */; };
+		373ABAC5405E4FEDB683F038 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23A82AB733749478537E616 /* Poppins-MediumItalic.ttf */; };
+		3851AA66989D58E3D92B6E08 /* Pods_AppZilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277EA3BAB9155670B236B0C4 /* Pods_AppZilla.framework */; };
+		3F6E64DF6A544C3992B3D439 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FED6607979F405097B4B3A0 /* Poppins-Bold.ttf */; };
+		51838E69FFE34B46B79CC243 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2457A4088BC4807A6522C4A /* Poppins-BlackItalic.ttf */; };
+		51E1ACFC19AC4B7DBD564ABB /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38466ACCD4BD4E71AD6423C1 /* Poppins-BoldItalic.ttf */; };
+		571C3D5E877C4BC68B225BA8 /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C9DA32295B45E78F3954D7 /* NunitoSans-Italic.ttf */; };
+		57ADC7BD9585460899F98227 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65148CF15A6B4A109D84657C /* NunitoSans-Light.ttf */; };
+		63C7E9D2240D49378338B0D2 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66FCD7B30DED4292B48B06F8 /* Poppins-LightItalic.ttf */; };
+		6658D79D38F44F84BA506506 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEBD7E11614FC9958247ED /* Poppins-ExtraBoldItalic.ttf */; };
+		69100465767C4806873CA564 /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3554D6A24374F26A5A68592 /* NunitoSans-ExtraLightItalic.ttf */; };
+		698B9B57DC9E44C0A47FE939 /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D276485A1CD241AFB1679AB9 /* NunitoSans-BoldItalic.ttf */; };
+		70AE88AEE33A452DB25A17F1 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE4B26B2C64147E1A7F5781A /* Poppins-Light.ttf */; };
+		728C172084B4440E92DB70E7 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B14F26FBEEE4B18B238730E /* Poppins-Regular.ttf */; };
+		75B466A0664D41E699DB112C /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3D5367C0D34598B66C1C85 /* NunitoSans-ExtraBoldItalic.ttf */; };
+		760444E37C7F47368B959912 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1ED09794A0F4837BD71C36E /* Poppins-ExtraLightItalic.ttf */; };
+		7A79AFEE1BD84144B4639552 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE66D7E51AFA4EE3B589DC5E /* Poppins-Italic.ttf */; };
+		7E5EB8806D6B4FD680CC1FAA /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00110BBF52A6415DABBB706C /* Poppins-ExtraBold.ttf */; };
+		7ED1BC543D73E7067EB7EA31 /* Pods_AppZilla_AppZillaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7DE28C113699527FF6C9C9 /* Pods_AppZilla_AppZillaTests.framework */; };
+		7F595645F38149ADA5D93BAA /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1831707BF7C24C5F802BFAE0 /* NunitoSans-ExtraBold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8259A0A190E04D4682C5BB85 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 378C4F9DBB8340B89828F3EF /* Poppins-Thin.ttf */; };
+		872B062F48584F0985EBE026 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BBFB3E4D91E46259AD69D41 /* NunitoSans-Regular.ttf */; };
+		B2C2CEF78BC942E8B2BD1C40 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A0E4CCC68D84E16B52DC60F /* NunitoSans-Bold.ttf */; };
+		C75A0068ABD44D6B875327ED /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11CEE37AE6442958B3B47D7 /* NunitoSans-SemiBold.ttf */; };
+		C9AF16598C364BA497675305 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA8F6438B7434B2192325C99 /* Poppins-Medium.ttf */; };
+		D39A555B080A4DE4808431E4 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E78FA3DDA584AE69FF5D2C1 /* Poppins-SemiBoldItalic.ttf */; };
+		D923FD1843E6433CB7E8D526 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F22D44756D90450DAB273610 /* Poppins-ThinItalic.ttf */; };
+		DE00A47758244CFB92FACF70 /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9ADE6DA05E4A33A1113CCD /* NunitoSans-BlackItalic.ttf */; };
+		E3B26017C25141409A5289A7 /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BFEE6FF65F54359B3E30513 /* NunitoSans-Black.ttf */; };
+		EBD887B397134BA6BCFA7DC9 /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1D5DC9164647D490784955 /* NunitoSans-SemiBoldItalic.ttf */; };
+		FC18D5A38FAE4C2D8D642E88 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC8C282F4E674405BA1EA7F2 /* Poppins-SemiBold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AppZilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00110BBF52A6415DABBB706C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../app/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* AppZillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppZillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AppZillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppZillaTests.m; sourceTree = "<group>"; };
+		0EA99346BE0E4B3386A97383 /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraLight.ttf"; path = "../app/assets/fonts/NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AppZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppZilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppZilla/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AppZilla/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppZilla/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppZilla/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppZilla/main.m; sourceTree = "<group>"; };
+		1831707BF7C24C5F802BFAE0 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraBold.ttf"; path = "../app/assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1846F9132A1B85940006C5A6 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		1846F9152A1CC8FC0006C5A6 /* AppZilla.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppZilla.entitlements; path = AppZilla/AppZilla.entitlements; sourceTree = "<group>"; };
+		1846F9162A1F56190006C5A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18C9DA32295B45E78F3954D7 /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Italic.ttf"; path = "../app/assets/fonts/NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		277EA3BAB9155670B236B0C4 /* Pods_AppZilla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppZilla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28159BADD4A06F12F817D4A5 /* Pods-AppZilla-AppZillaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppZilla-AppZillaTests.debug.xcconfig"; path = "Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0E4CCC68D84E16B52DC60F /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Bold.ttf"; path = "../app/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		2B14F26FBEEE4B18B238730E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../app/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		378C4F9DBB8340B89828F3EF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../app/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		38466ACCD4BD4E71AD6423C1 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../app/assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4C9ADE6DA05E4A33A1113CCD /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-BlackItalic.ttf"; path = "../app/assets/fonts/NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5C7DE28C113699527FF6C9C9 /* Pods_AppZilla_AppZillaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppZilla_AppZillaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E78FA3DDA584AE69FF5D2C1 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		65148CF15A6B4A109D84657C /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Light.ttf"; path = "../app/assets/fonts/NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		66FCD7B30DED4292B48B06F8 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../app/assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		6F1A6EF83B9F494C81972B02 /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-LightItalic.ttf"; path = "../app/assets/fonts/NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6FED6607979F405097B4B3A0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../app/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7C1D5DC9164647D490784955 /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBoldItalic.ttf"; path = "../app/assets/fonts/NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7D3D5367C0D34598B66C1C85 /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppZilla/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842F96C3B041486099F45C88 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../app/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		8BFEE6FF65F54359B3E30513 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Black.ttf"; path = "../app/assets/fonts/NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		9BBFB3E4D91E46259AD69D41 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Regular.ttf"; path = "../app/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A23A82AB733749478537E616 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../app/assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A3554D6A24374F26A5A68592 /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraLightItalic.ttf"; path = "../app/assets/fonts/NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A5BBB63197DB4652BA518AE9 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../app/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		AA8F6438B7434B2192325C99 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../app/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		AC8C282F4E674405BA1EA7F2 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../app/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		AE66D7E51AFA4EE3B589DC5E /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../app/assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		B89E01D695737CB2EAEEAD43 /* Pods-AppZilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppZilla.debug.xcconfig"; path = "Target Support Files/Pods-AppZilla/Pods-AppZilla.debug.xcconfig"; sourceTree = "<group>"; };
+		D040251ACFD791A30E2A86FC /* Pods-AppZilla-AppZillaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppZilla-AppZillaTests.release.xcconfig"; path = "Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests.release.xcconfig"; sourceTree = "<group>"; };
+		D276485A1CD241AFB1679AB9 /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-BoldItalic.ttf"; path = "../app/assets/fonts/NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F11CEE37AE6442958B3B47D7 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBold.ttf"; path = "../app/assets/fonts/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1ED09794A0F4837BD71C36E /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F22D44756D90450DAB273610 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../app/assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F2457A4088BC4807A6522C4A /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../app/assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F5150AF07E1A4D70CBAEE71D /* Pods-AppZilla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppZilla.release.xcconfig"; path = "Target Support Files/Pods-AppZilla/Pods-AppZilla.release.xcconfig"; sourceTree = "<group>"; };
+		F5BEBD7E11614FC9958247ED /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FE4B26B2C64147E1A7F5781A /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../app/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED1BC543D73E7067EB7EA31 /* Pods_AppZilla_AppZillaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3851AA66989D58E3D92B6E08 /* Pods_AppZilla.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AppZillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AppZillaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AppZillaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AppZilla */ = {
+			isa = PBXGroup;
+			children = (
+				1846F9162A1F56190006C5A6 /* GoogleService-Info.plist */,
+				1846F9152A1CC8FC0006C5A6 /* AppZilla.entitlements */,
+				1846F9132A1B85940006C5A6 /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = AppZilla;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				277EA3BAB9155670B236B0C4 /* Pods_AppZilla.framework */,
+				5C7DE28C113699527FF6C9C9 /* Pods_AppZilla_AppZillaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* AppZilla */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AppZillaTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D1EF5CEF130640BCB449B3D5 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AppZilla.app */,
+				00E356EE1AD99517003FC87E /* AppZillaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B89E01D695737CB2EAEEAD43 /* Pods-AppZilla.debug.xcconfig */,
+				F5150AF07E1A4D70CBAEE71D /* Pods-AppZilla.release.xcconfig */,
+				28159BADD4A06F12F817D4A5 /* Pods-AppZilla-AppZillaTests.debug.xcconfig */,
+				D040251ACFD791A30E2A86FC /* Pods-AppZilla-AppZillaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1EF5CEF130640BCB449B3D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BFEE6FF65F54359B3E30513 /* NunitoSans-Black.ttf */,
+				4C9ADE6DA05E4A33A1113CCD /* NunitoSans-BlackItalic.ttf */,
+				2A0E4CCC68D84E16B52DC60F /* NunitoSans-Bold.ttf */,
+				D276485A1CD241AFB1679AB9 /* NunitoSans-BoldItalic.ttf */,
+				1831707BF7C24C5F802BFAE0 /* NunitoSans-ExtraBold.ttf */,
+				7D3D5367C0D34598B66C1C85 /* NunitoSans-ExtraBoldItalic.ttf */,
+				0EA99346BE0E4B3386A97383 /* NunitoSans-ExtraLight.ttf */,
+				A3554D6A24374F26A5A68592 /* NunitoSans-ExtraLightItalic.ttf */,
+				18C9DA32295B45E78F3954D7 /* NunitoSans-Italic.ttf */,
+				65148CF15A6B4A109D84657C /* NunitoSans-Light.ttf */,
+				6F1A6EF83B9F494C81972B02 /* NunitoSans-LightItalic.ttf */,
+				9BBFB3E4D91E46259AD69D41 /* NunitoSans-Regular.ttf */,
+				F11CEE37AE6442958B3B47D7 /* NunitoSans-SemiBold.ttf */,
+				7C1D5DC9164647D490784955 /* NunitoSans-SemiBoldItalic.ttf */,
+				A5BBB63197DB4652BA518AE9 /* Poppins-Black.ttf */,
+				F2457A4088BC4807A6522C4A /* Poppins-BlackItalic.ttf */,
+				6FED6607979F405097B4B3A0 /* Poppins-Bold.ttf */,
+				38466ACCD4BD4E71AD6423C1 /* Poppins-BoldItalic.ttf */,
+				00110BBF52A6415DABBB706C /* Poppins-ExtraBold.ttf */,
+				F5BEBD7E11614FC9958247ED /* Poppins-ExtraBoldItalic.ttf */,
+				842F96C3B041486099F45C88 /* Poppins-ExtraLight.ttf */,
+				F1ED09794A0F4837BD71C36E /* Poppins-ExtraLightItalic.ttf */,
+				AE66D7E51AFA4EE3B589DC5E /* Poppins-Italic.ttf */,
+				FE4B26B2C64147E1A7F5781A /* Poppins-Light.ttf */,
+				66FCD7B30DED4292B48B06F8 /* Poppins-LightItalic.ttf */,
+				AA8F6438B7434B2192325C99 /* Poppins-Medium.ttf */,
+				A23A82AB733749478537E616 /* Poppins-MediumItalic.ttf */,
+				2B14F26FBEEE4B18B238730E /* Poppins-Regular.ttf */,
+				AC8C282F4E674405BA1EA7F2 /* Poppins-SemiBold.ttf */,
+				5E78FA3DDA584AE69FF5D2C1 /* Poppins-SemiBoldItalic.ttf */,
+				378C4F9DBB8340B89828F3EF /* Poppins-Thin.ttf */,
+				F22D44756D90450DAB273610 /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AppZillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppZillaTests" */;
+			buildPhases = (
+				426C42DB6CE27E3753AE5036 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				A0F9E4DA0A7842A6E4BED6BF /* [CP] Embed Pods Frameworks */,
+				DD9582670147EF82955FDD3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AppZillaTests;
+			productName = AppZillaTests;
+			productReference = 00E356EE1AD99517003FC87E /* AppZillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AppZilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppZilla" */;
+			buildPhases = (
+				D4834C0B8F973E5C8B2D9CED /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F49EF20D4DAAFF88F1F59957 /* [CP] Embed Pods Frameworks */,
+				C031B1CF7211CBA8225E4A5E /* [CP-User] [RNFB] Core Configuration */,
+				B15A5B704FBC6BE2E01C624A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppZilla;
+			productName = AppZilla;
+			productReference = 13B07F961A680F5B00A75B9A /* AppZilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AppZilla" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AppZilla */,
+				00E356ED1AD99517003FC87E /* AppZillaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E3B26017C25141409A5289A7 /* NunitoSans-Black.ttf in Resources */,
+				1846F9142A1B85940006C5A6 /* Fonts in Resources */,
+				DE00A47758244CFB92FACF70 /* NunitoSans-BlackItalic.ttf in Resources */,
+				B2C2CEF78BC942E8B2BD1C40 /* NunitoSans-Bold.ttf in Resources */,
+				698B9B57DC9E44C0A47FE939 /* NunitoSans-BoldItalic.ttf in Resources */,
+				7F595645F38149ADA5D93BAA /* NunitoSans-ExtraBold.ttf in Resources */,
+				75B466A0664D41E699DB112C /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				13D0889B4D3141C68D83A5AC /* NunitoSans-ExtraLight.ttf in Resources */,
+				69100465767C4806873CA564 /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				571C3D5E877C4BC68B225BA8 /* NunitoSans-Italic.ttf in Resources */,
+				57ADC7BD9585460899F98227 /* NunitoSans-Light.ttf in Resources */,
+				340893E6D6F141BEA4294F93 /* NunitoSans-LightItalic.ttf in Resources */,
+				872B062F48584F0985EBE026 /* NunitoSans-Regular.ttf in Resources */,
+				C75A0068ABD44D6B875327ED /* NunitoSans-SemiBold.ttf in Resources */,
+				EBD887B397134BA6BCFA7DC9 /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				28987E6566EE4725AAC70100 /* Poppins-Black.ttf in Resources */,
+				51838E69FFE34B46B79CC243 /* Poppins-BlackItalic.ttf in Resources */,
+				3F6E64DF6A544C3992B3D439 /* Poppins-Bold.ttf in Resources */,
+				51E1ACFC19AC4B7DBD564ABB /* Poppins-BoldItalic.ttf in Resources */,
+				7E5EB8806D6B4FD680CC1FAA /* Poppins-ExtraBold.ttf in Resources */,
+				6658D79D38F44F84BA506506 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				35C3C0F832A7478D8933C0F5 /* Poppins-ExtraLight.ttf in Resources */,
+				760444E37C7F47368B959912 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				7A79AFEE1BD84144B4639552 /* Poppins-Italic.ttf in Resources */,
+				70AE88AEE33A452DB25A17F1 /* Poppins-Light.ttf in Resources */,
+				63C7E9D2240D49378338B0D2 /* Poppins-LightItalic.ttf in Resources */,
+				C9AF16598C364BA497675305 /* Poppins-Medium.ttf in Resources */,
+				1846F9172A1F56190006C5A6 /* GoogleService-Info.plist in Resources */,
+				373ABAC5405E4FEDB683F038 /* Poppins-MediumItalic.ttf in Resources */,
+				728C172084B4440E92DB70E7 /* Poppins-Regular.ttf in Resources */,
+				FC18D5A38FAE4C2D8D642E88 /* Poppins-SemiBold.ttf in Resources */,
+				D39A555B080A4DE4808431E4 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				8259A0A190E04D4682C5BB85 /* Poppins-Thin.ttf in Resources */,
+				D923FD1843E6433CB7E8D526 /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		426C42DB6CE27E3753AE5036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppZilla-AppZillaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F9E4DA0A7842A6E4BED6BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15A5B704FBC6BE2E01C624A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C031B1CF7211CBA8225E4A5E /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		D4834C0B8F973E5C8B2D9CED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppZilla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9582670147EF82955FDD3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppZilla-AppZillaTests/Pods-AppZilla-AppZillaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49EF20D4DAAFF88F1F59957 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppZilla/Pods-AppZilla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AppZillaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AppZilla */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28159BADD4A06F12F817D4A5 /* Pods-AppZilla-AppZillaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppZillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppZilla.app/AppZilla";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D040251ACFD791A30E2A86FC /* Pods-AppZilla-AppZillaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AppZillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppZilla.app/AppZilla";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89E01D695737CB2EAEEAD43 /* Pods-AppZilla.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppZilla/AppZilla.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AppZilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AppZilla;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5150AF07E1A4D70CBAEE71D /* Pods-AppZilla.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppZilla/AppZilla.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AppZilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = AppZilla;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AppZillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AppZilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AppZilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

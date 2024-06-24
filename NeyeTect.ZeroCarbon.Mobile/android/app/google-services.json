@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631698295135",
+    "project_id": "appzilla-31c1c",
+    "storage_bucket": "appzilla-31c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631698295135:android:29eb68bd0772558d024eea",
+        "android_client_info": {
+          "package_name": "com.zerocarbonizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631698295135-l7373pdi88anekg71vt2etg8iqhns5sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkQ1269lmpeLM5NKhr5yWDkYfu2YWNPHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631698295135-l7373pdi88anekg71vt2etg8iqhns5sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

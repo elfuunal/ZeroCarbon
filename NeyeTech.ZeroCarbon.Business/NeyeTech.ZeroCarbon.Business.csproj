@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NeyeTech.ZeroCarbon.Core\NeyeTech.ZeroCarbon.Core.csproj" />
+    <ProjectReference Include="..\NeyeTech.ZeroCarbon.DataAccess\NeyeTech.ZeroCarbon.DataAccess.csproj" />
+    <ProjectReference Include="..\NeyeTech.ZeroCarbon.Entities\NeyeTech.ZeroCarbon.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

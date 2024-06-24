@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>631698295135-396qahm0177l8t241dp3qq851goasl3h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.631698295135-396qahm0177l8t241dp3qq851goasl3h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJ0It0whFtELkhLvrx52ZngodXztrY3U0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>631698295135</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.AppZilla</string>
+	<key>PROJECT_ID</key>
+	<string>appzilla-31c1c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appzilla-31c1c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:631698295135:ios:c2f0e4cd5eac9d4c024eea</string>
+	<key>DATABASE_URL</key>
+	<string>https://appzilla-31c1c-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
